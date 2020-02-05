@@ -11,9 +11,5 @@
  * It is generally better to create a new file per style scope.
  *
  *= require bootstrap/dist/css/bootstrap
- *= require font-awesome/css/font-awesome
- *= require magnific-popup/dist/magnific-popup.css
- *= require freelancer
- *= require_tree .
  *= require_self
  */

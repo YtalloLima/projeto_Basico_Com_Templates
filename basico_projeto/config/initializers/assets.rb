@@ -14,3 +14,5 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 Rails.application.config.assets.precompile += %w( avataaars.svg profile.png portfolio/cabin.png portfolio/cake.png portfolio/circus.png 
 portfolio/game.png portfolio/safe.png portfolio/submarine.png)
+Rails.application.config.assets.precompile += %w(site.js backoffice.js)
+Rails.application.config.assets.precompile += %w(site.css backoffice.css)
