@@ -13,4 +13,11 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require bootstrap/dist/js/bootstrap
+//= require jquery/dist/jquery
+//= require jquery.easing/jquery.easing
+//= require magnific-popup/dist/jquery.magnific-popup
+//= require jqBootstrapValidation
+//= require contact_me
+//= require freelancer
 //= require_tree .
