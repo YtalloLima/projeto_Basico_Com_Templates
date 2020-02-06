@@ -4,6 +4,13 @@ Rails.application.configure do
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
+  
+  #Better Errors Config
+  #BetterErrors::Middleware.allow_ip! ENV['TRUSTED_IP'] if ENV['TRUSTED_IP']
+  # Allow usage of better_errors on Vagrant
+  BetterErrors::Middleware.allow_ip! "10.0.2.2"
+  #WebConsole Rails
+  config.web_console.whitelisted_ips = "10.0.2.2" #ENV['TRUSTED_IP']
 
   #devise enviar email
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
